@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About
+
 ---
+
 <font size = "2">
 Data analyst with a keen interest in machine learning and data science domains. I live and work in Paris, France.<br />
 Timeline:<br />
@@ -15,12 +16,11 @@ Timeline:<br />
 ### Interest for data science 
 <font size = "2">
 Professionally my work has always been related to data, recently - in banking/financial sector. <br /> 
-
+<br />
 Having looked at it from both enterprise (internal) and consultant (external) perspectives, I can say for certain that it's not only about analyzing the datasets themselves, but about gaining valuable insights in order to propose solutions. <br />
-
+<br />
 That is why, upon doing reporting, writing SQL scripts and creating Excel pivots, I started learning DS/ML - it's challenging and technically complex, but ever more interesting for it.<br /></font>
 
 ### Contact me
-<font size = "2">
 Via Linkedin or email: [kseniya.shitova@edu.escpeurope.eu](mailto:kseniya.shitova@edu.escpeurope.eu)
-</font>
+

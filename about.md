@@ -1,11 +1,8 @@
 ---
 layout: page
 title: About
-
 ---
-
-### About 
-
+<font size = "6">
 Data analyst with a keen interest in machine learning and data science domains. I live and work in Paris, France.<br />
 Timeline:<br />
 2017-Present  Analyst Intern --> Associate at Fiserv Revenue Enhancement Solutions, Paris <br />
@@ -24,3 +21,4 @@ That is why, upon doing reporting, writing SQL scripts and creating Excel pivots
 ### Contact me
 
 Via Linkedin or email: [kseniya.shitova@edu.escpeurope.eu](mailto:kseniya.shitova@edu.escpeurope.eu)
+</font>

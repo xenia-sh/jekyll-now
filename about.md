@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-<font size = "6">
+<font size = "2">
 Data analyst with a keen interest in machine learning and data science domains. I live and work in Paris, France.<br />
 Timeline:<br />
 2017-Present  Analyst Intern --> Associate at Fiserv Revenue Enhancement Solutions, Paris <br />

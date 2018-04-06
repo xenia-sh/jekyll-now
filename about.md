@@ -8,12 +8,12 @@ Data analyst with a keen interest in machine learning and data science domains. 
 
 ### Timeline
 <font size = "2">
-<tr> <td>2017-Present</td>  <td>Analyst Intern --> Associate at Fiserv Revenue Enhancement Solutions, Paris</td> </tr><br />
-<tr> <td>2016-Present</td> <td>Master in European Business at ESCP Europe, London/Paris </td></tr> <br />
-<tr> <td>2015-2016</td>     <td>Senior Analyst at VTB Capital, Moscow (top-2 investment bank in Russia by size)</td></tr> <br />
-<tr> <td>2013-2015</td>     <td>Master in Financial Economics at Higher School of Economics & London School of Economics, Moscow</td></tr><br />
-<tr> <td>2012-2013</td>    <td>Junior Business Analyst at Vimpelcom, Moscow (top-2 telecom provider in Russia)</td></tr> <br />
-<tr> <td>2009-2013</td>     <td>Bachelor in IT at Higher School of Economics, Moscow (focus on databases and corporate information systems)</td></tr><br /></font>
+2017-Present &nbsp; &nbsp; Analyst Intern --> Associate at Fiserv Revenue Enhancement Solutions, Paris<br />
+2016-Present &nbsp;&nbsp; Master in European Business at ESCP Europe, London/Paris <br />
+2015-2016 &nbsp;&nbsp; Senior Analyst at VTB Capital, Moscow (top-2 investment bank in Russia by size) <br />
+2013-2015 &nbsp;&nbsp; Master in Financial Economics at Higher School of Economics & London School of Economics, Moscow<br />
+2012-2013 &nbsp;&nbsp; Junior Business Analyst at Vimpelcom, Moscow (top-2 telecom provider in Russia) <br />
+2009-2013 &nbsp;&nbsp; Bachelor in IT at Higher School of Economics, Moscow (focus on databases and corporate information systems)<br /></font>
 
 ### Interest for data science 
 <font size = "2">

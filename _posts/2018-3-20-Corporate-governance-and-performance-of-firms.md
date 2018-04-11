@@ -47,6 +47,8 @@ Below is the table comparing their scores and methodologies. They&rsquo;re essen
 <p><h3><strong>The data </strong></h3><br />
  <font size = "2">
 All financial data was taken from Yahoo Finance and Thomson Reuters Datastream. The companies under examination were public, as only those have stocks trading at international exchange, and their financial information is available.<br />
-The countries taken into account were emerging markets, as on these the effect is more evident and less &ldquo;smoothed out&rdquo; or outweighed by other variables (as in Russia, for example, by corruption which makes measuring corporate governance extremely difficult). The ones under analysis were China, Hing Kong, India, Indonesia, Korea, Malaysia, Philippines, Singapore, Taiwan, Thailand, EEMEA region and Latin America region.<br />
+<br />	
+The countries taken into account were emerging markets, as on these the effect is more evident and less &ldquo;smoothed out&rdquo; or outweighed by other variables (as in Russia, for example, by corruption which makes measuring corporate governance extremely difficult). The ones under analysis were China, Hing Kong, India, Indonesia, Korea, Malaysia, Philippines, Singapore, Taiwan, Thailand, EEMEA region and Latin America region.
+<br />
 Back then I did all the analysis and modeling in Eviews/Excel, and here is what one of my first results looked like:</p>
 </font>

@@ -4,6 +4,6 @@
 <p>&ldquo;Products&rdquo;, as in Santander case, will be the predicted variables, and these can be anything from specific card types, to insurances, to accounts, to services for business. <a href="https://particuliers.societegenerale.fr/tous_les_produits.html">Here</a> are examples of all products by a typical French bank. </p><br />
 <p>It&rsquo;s good to know that there are three major client categories for banks in France - particuliers, professionnels and entreprises. There are also others depending on bank policy and specification.<br />
 
-<strong>The data </strong><br />
+<h3><strong>The data </strong></h3><br />
 <br />
 Our train dataset is for year N while our test dataset is for the next year (N+1). Also, as will be seen by the data, the period for train is longer than for test.</p>

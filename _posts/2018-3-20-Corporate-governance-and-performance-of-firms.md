@@ -27,19 +27,20 @@ Below is the table comparing their scores and methodologies. They&rsquo;re essen
 <table border="1" cellpadding="1" cellspacing="1" style="width:500px">
 	<tbody>
 		<tr>
-			<td>ISS Governance Quick Score</td>
-			<td>4100 companies, 25 countries</td>
-			<td>Board structure and policies,&nbsp;Compensation and remuneration,&nbsp;Shareholder rights,&nbsp;Audit practices</td>
+			<td><font size = "1">ISS Governance Quick Score</font></td>
+			<td><font size = "1">4100 companies, 25 countries</font></td>
+			<td><font size = "1">Board structure and policies,&nbsp;Compensation and remuneration,&nbsp;Shareholder rights,&nbsp;Audit practices</font>
+</td>
 		</tr>
 		<tr>
-			<td>CLSA Governance Score</td>
-			<td>495 companies, 25 countries</td>
-			<td>Discipline, Transparency, Independency, Accountability, Responsibility, Fairness, Social awareness</td>
+			<td><font size = "1">CLSA Governance Score</font></td>
+			<td><font size = "1">495 companies, 25 countries</font></td>
+			<td><font size = "1">Discipline, Transparency, Independency, Accountability, Responsibility, Fairness, Social awareness</font></td>
 		</tr>
 		<tr>
-			<td>S &amp; P CGS</td>
+			<td><font size = "1">S &amp; P CGS</font></td>
 			<td>&nbsp;</td>
-			<td>Ownership Structure &amp; Influence, Financial Stakeholder Rights and Relations, Financial Transparency and Information Disclosure, Board Structure and Process</td>
+			<td><font size = "1">Ownership Structure &amp; Influence, Financial Stakeholder Rights and Relations, Financial Transparency and Information Disclosure, Board Structure and Process</font></td>
 		</tr>
 	</tbody>
 </table>

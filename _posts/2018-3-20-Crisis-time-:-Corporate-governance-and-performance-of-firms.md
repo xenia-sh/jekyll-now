@@ -107,8 +107,8 @@ est = sm.OLS(predicted, X2) #OLS method&nbsp;<br />
 est2 = est.fit() #fitting the model&nbsp;<br />
 print(est2.summary()) #summary of regression results&nbsp;</code></div></p>
 <br />
-<h2><img alt="" src="https://github.com/xenia-sh/xenia-sh.github.io/blob/master/images/fifth-cg.png" /></h2>
-<h2><img alt="" src="https://github.com/xenia-sh/xenia-sh.github.io/blob/master/images/sixth-cg.png" /></h2>
+<h2><img alt="" src="https://i.imgur.com/lru2BdD.png" /></h2>
+<h2><img alt="" src="https://i.imgur.com/ObhirCR.png" /></h2>
 
 <p>A few things can be immediately seen from the results.<br />
 	<br />

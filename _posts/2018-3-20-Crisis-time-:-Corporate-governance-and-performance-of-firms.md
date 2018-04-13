@@ -87,7 +87,8 @@ There were a few groups&nbsp;of variables:<br />
 plt.matshow(df[corp_gov_vars].corr()) #show the matrix&nbsp;</code></div>
 <br />
 <p>The variables that are too strongly correlated (marked yellow below)&nbsp;should not be in the model together.&nbsp; An example for country economy variables is below.&nbsp;</p>
-
+<h2><img alt="" src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/fourth-cg.png" /></h2>
+<br />
 <h2><strong>The model - specification </strong></h2>
 
 <p>The model specifications (multivariate regression) used in the research were:<br />

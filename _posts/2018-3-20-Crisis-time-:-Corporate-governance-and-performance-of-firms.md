@@ -82,8 +82,11 @@ There were a few groups&nbsp;of variables:<br />
 -[Performance related, firm level (ROE, ROI, Net growth, D/E ratio - wasn&rsquo;t used for Python modelisation)]</p>
 
 <h2><strong>The model - variable correlations </strong></h2>
-
-<p>--code for correlations and results with short explanations what to exclude</p>
+<br />
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>print(df[corp_gov_vars].corr()) #elements of the CLSA index&nbsp;<br />
+plt.matshow(df[corp_gov_vars].corr()) #show the matrix&nbsp;</code></div>
+<br />
+<p>The variables that are too strongly correlated (marked yellow below)&nbsp;should not be in the model together.&nbsp; An example for country economy variables is below.&nbsp;</p>
 
 <h2><strong>The model - specification </strong></h2>
 

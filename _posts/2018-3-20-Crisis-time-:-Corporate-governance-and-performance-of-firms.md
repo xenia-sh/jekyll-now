@@ -56,7 +56,7 @@ The countries taken into account were emerging markets, as on these the effect i
 Back then I did all the analysis and modeling in Eviews/Excel, and here is what one of my first results looked like:</p>
 </font>
 <font size="2">
-<h2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="" src="https://ibb.co/g82sNS" /><img alt="" src="https://ibb.co/g82sNS" /><img alt="" src="https://preview.ibb.co/mtWV97/data_science_diagram_from_thesis_pres.png" style="height:396px; width:640px" />&nbsp;</h2>
+<h2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="" src="https://ibb.co/g82sNS" /><img alt="" src="https://ibb.co/g82sNS" /><img alt="" src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/third one for corporate gov.png" style="height:396px; width:640px" />&nbsp;</h2>
 
 <h2><strong>The model - variables &nbsp;</strong></h2>
 
@@ -97,6 +97,6 @@ Third, country level variables - GDP, Market capitalization and, especially, own
 -&nbsp;There is weak evidence that in countries with better institutions, the effect of firm-level corporate governance is actually stronger<br />
 - Complementarity of firm-level and country-level firm characteristics<br />
 - Firms do rely on their own performance to save them in troubled times (which makes a lot of sense)<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="" src="https://preview.ibb.co/n1qOU7/data_science_second_graph_from_thesis_pres.png" /><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="" src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/data science second graph from thesis pres.png" /><br />
 When I presented this paper, I remember being asked about the quality of the data and it being criticized as my main limit to the strength of the model. While results were in line with previous research, certain components of CLSA index were not at all significant, and it remains a questions whether it&rsquo;s because of the sample bias or indeed they did not influence firm performance during the crisis.</font></p>
 

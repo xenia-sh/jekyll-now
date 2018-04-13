@@ -35,12 +35,14 @@ Below is the table comparing their scores and methodologies. They&rsquo;re essen
 		<tr>
 			<td><font size = "2">CLSA Governance Score</font></td>
 			<td><font size = "2">495 companies, 25 countries</font></td>
-			<td><font size = "2">Discipline, Transparency, Independency, Accountability, Responsibility, Fairness, Social awareness</font></td>
+			<td><font size = "2">Discipline, Transparency, Independency, Accountability, 
+				Responsibility, Fairness, Social awareness</font></td>
 		</tr>
 		<tr>
 			<td><font size = "2">S &amp; P CGS</font></td>
 			<td>&nbsp;</td>
-			<td><font size = "2">Ownership Structure &amp; Influence, Financial Stakeholder Rights and Relations, Financial Transparency and Information Disclosure, Board Structure and Process</font></td>
+			<td><font size = "2">Ownership Structure &amp; Influence, Financial Stakeholder Rights and Relations, 
+				Financial Transparency and Information Disclosure, Board Structure and Process</font></td>
 		</tr>
 	</tbody>
 </table>
@@ -48,9 +50,9 @@ Below is the table comparing their scores and methodologies. They&rsquo;re essen
 <p><h3><strong>The data </strong></h3>
 <font size = "2">
 All financial data was taken from Yahoo Finance and Thomson Reuters Datastream. The companies under examination were public, as only those have stocks trading at international exchange, and their financial information is available.<br />
-	
+	<br />
 The countries taken into account were emerging markets, as on these the effect is more evident and less &ldquo;smoothed out&rdquo; or outweighed by other variables (as in Russia, for example, by corruption which makes measuring corporate governance extremely difficult). The ones under analysis were China, Hing Kong, India, Indonesia, Korea, Malaysia, Philippines, Singapore, Taiwan, Thailand, EEMEA region and Latin America region.<br />	
-
+<br />
 Back then I did all the analysis and modeling in Eviews/Excel, and here is what one of my first results looked like:</p>
 </font>
 <font size="2">
@@ -59,14 +61,14 @@ Back then I did all the analysis and modeling in Eviews/Excel, and here is what 
 <h2><strong>The model - variables &nbsp;</strong></h2>
 
 <p>The &ldquo;window&rdquo; of time used for crisis was from June 2007 to December 2009. Therefore, The dependent variable was &nbsp;the daily closing stock price at the lowest point in this period with value at the beginning of the crisis normalized at 100. All of the other variables were taken from strictly before the crisis (2006).<br />
-	
+	<br />
 There were a few groups&nbsp;of variables:<br />
 -&nbsp;Corporate governance related, firm level (CLSA index and its components)<br />
 -&nbsp;Corporate governance related, country level (taken from research articles - rule of law, corruption, ownership concentration, government effectiveness)<br />
 -&nbsp;Performance related, country level<br />
 -&nbsp;Controlling (0 or 1 depending on industry and country)<br />
 -[Performance related, firm level (ROE, ROI, Net growth, D/E ratio - wasn&rsquo;t used for Python modelisation)]</p>
-
+<br />
 <h2><strong>The model - variable correlations </strong></h2>
 
 <p>--code for correlations and results with short explanations what to exclude</p>
@@ -74,14 +76,17 @@ There were a few groups&nbsp;of variables:<br />
 <h2><strong>The model - specification </strong></h2>
 
 <p>The model specifications (multivariate regression) used in the research were:<br />
+	<br />
 <em>Min_share_price</em><em> = c + c1* (</em><em>CG_index</em><em>)+ c2*(</em><em>firm-level control variables</em><em>) + c3* (country-level control variables) + c4*(industry fixed effects*) + c5*(country fixed effects*)</em><br />
-	
+	<br />
 <em>Min_share_price</em><em> = c + c1* (</em><em>Country variables</em><em>) + c2*(</em><em>firm-level control variables</em><em>) &nbsp;+ c3*(</em><em>country-level control variables</em><em>) + c4*(industry fixed effects*) + c5* (country fixed effects*) </em><br />
+<br />
 The one used by me is the combination of the two:<br />
 
 <em>-code of predicted and predictive and of prediction + results </em></p>
 
 <p>A few things can be immediately seen from the results.<br />
+	<br />
 First, Fairness (which is the component of CLSA) is significant (in fact, it&rsquo;s the only significant element of the index across multiple model specifications that I&rsquo;ve tried).<br />
 Second, country dummies and industry dummies &ldquo;take away&rdquo; significance from both CLSA firm-level indicators and country parameters, being very strongly significant at 1% confidence level.<br />
 Third, country level variables - GDP, Market capitalization and, especially, ownership concentration (describing the owners rights established by country law) are all significant.</p>

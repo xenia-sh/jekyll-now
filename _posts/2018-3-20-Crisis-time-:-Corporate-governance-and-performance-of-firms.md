@@ -124,4 +124,5 @@ Third, country level variables - GDP, Market capitalization and, especially, own
 - Firms do rely on their own performance to save them in troubled times (which makes a lot of sense)<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="" src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/data science second graph from thesis pres.png" /><br />
 When I presented this paper, I remember being asked about the quality of the data and it being criticized as my main limit to the strength of the model. While results were in line with previous research, certain components of CLSA index were not at all significant, and it remains a questions whether it&rsquo;s because of the sample bias or indeed they did not influence firm performance during the crisis.</font></p>
-
+<br />
+<p>The link to all the code and supplementary materials is <a href="https://github.com/xenia-sh/corporate_governance">here</a>.&nbsp;</p>

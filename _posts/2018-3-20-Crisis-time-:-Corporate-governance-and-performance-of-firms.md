@@ -64,11 +64,23 @@ Back then I did all the analysis and modeling in Eviews/Excel, and here is what 
 	<br />
 There were a few groups&nbsp;of variables:<br />
 -&nbsp;Corporate governance related, firm level (CLSA index and its components)<br />
--&nbsp;Corporate governance related, country level (taken from research articles - rule of law, corruption, ownership concentration, government effectiveness)<br />
--&nbsp;Performance related, country level<br />
--&nbsp;Controlling (0 or 1 depending on industry and country)<br />
--[Performance related, firm level (ROE, ROI, Net growth, D/E ratio - wasn&rsquo;t used for Python modelisation)]</p>
+
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>corp_gov_vars = [&quot;Discipline &quot;, &quot;Transparency&quot;, &quot;Independence&quot;, &quot;Accountability&quot;,&quot;Responsibility&quot;,&quot;CLSA_Fairness&quot;,&quot;Social&quot;]</code></div>
 <br />
+-&nbsp;Corporate governance related, country level (taken from research articles - rule of law, corruption, ownership concentration, government effectiveness)
+<br />
+
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>country_vars_cg = [&quot;Antidirector rights Djankov&quot;, &quot;Ownership concentration&quot;,&nbsp;&quot;Antidirector rights Porta&quot;, &quot;Judicial Efficiency (Porta 2005 - ICRG)&quot;,&nbsp;&quot;Corruption perception index&quot;, &nbsp;&quot;Rule of law - La porta 2005 Kaufmann 2003&quot;, &quot;RL&quot;, &nbsp; &quot;Corruption - La Porta 2005 and Kaufmann 2003&quot;, &quot;Corruption&quot;, &quot;Government effectiveness&quot;]</code></div>
+<br />
+-&nbsp;Performance related, country level<br />
+
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>country_vars_econ = [&quot;Market capitalization&quot;, &quot;GDP 2006&quot;, &quot;Ln (GDP)&quot;, &nbsp;&quot;Market cap/GDP&quot;, &quot;GDP growth&quot;]</code></div>
+<br />
+-&nbsp;Controlling (0 or 1 depending on industry and country)<br />
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>controlling = [&quot;oil gas mining&quot;, &quot;automobiles&quot;, &quot;chemicals&quot;, &quot;electricity&quot;, &quot;engineering &quot;, &quot;financial&quot;, &quot;foods&quot;, &quot;technical&quot;, &quot;real estate investment&quot;, &quot;telecom&quot;, &quot;transport&quot;, &quot;general industrials&quot;, &quot;general retailers&quot;, &quot;goods&quot;, &quot;media&quot;, &quot;pharmaceuticals&quot;,&quot;China&quot;, &quot;Hong Kong&quot;, &quot;India&quot;, &nbsp;&quot;Indonesia&quot;, &quot;Korea&quot;, &quot;Malaysia&quot;, &quot;Philippines&quot;, &quot;Singapore&quot;, &quot;Taiwan&quot;, &quot;Thailand&quot;,&quot;EEMEA&quot; ,&nbsp;&quot;Latin America&quot;]</code></div>
+<br />
+-[Performance related, firm level (ROE, ROI, Net growth, D/E ratio - wasn&rsquo;t used for Python modelisation)]</p>
+
 <h2><strong>The model - variable correlations </strong></h2>
 
 <p>--code for correlations and results with short explanations what to exclude</p>
@@ -83,7 +95,13 @@ There were a few groups&nbsp;of variables:<br />
 <br />
 The one used by me is the combination of the two:<br />
 
-<em>-code of predicted and predictive and of prediction + results </em></p>
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>predictors = df[all] #the explanatory variables&nbsp;<br />
+predicted = df[dependent] #the dependent variable<br />
+&nbsp;<br />
+X2 = sm.add_constant(predictors) #adding a constant&nbsp;<br />
+est = sm.OLS(predicted, X2) #OLS method&nbsp;<br />
+est2 = est.fit() #fitting the model&nbsp;<br />
+print(est2.summary()) #summary of regression results&nbsp;</code></div></p>
 
 <p>A few things can be immediately seen from the results.<br />
 	<br />

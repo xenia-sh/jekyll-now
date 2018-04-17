@@ -110,4 +110,4 @@ Getting the top products..<br />
 <img src="https://lh5.googleusercontent.com/upzYMuuNBre9TdGBQ7MoQJC88gfanjK9UiS8WZsp2m5BxLVpPmclTJyn04lKlDu7280iugAzl72BzpBaLqFLmbQpdZ0M0BSfX0NhxQRJDoEjGhtKYRNJ95GjSjt6aQBkfgzsEIKk" style="height:44px; width:624px" /><br />
   
 The prediction quality has improved, but ever so slightly. <br />
-All the code for this task is at <a href="https://github.com/xenia-sh/kaggle_miscellaneous">my Github</a>.</font></p>
+All the code for this task is at <a href="https://github.com/xenia-sh/kaggle_miscellaneous">my Github</a>.</p></font>

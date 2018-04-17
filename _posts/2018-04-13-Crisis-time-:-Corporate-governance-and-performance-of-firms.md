@@ -26,7 +26,7 @@ Below is the table comparing their scores and methodologies. They&rsquo;re essen
 
 <p><font size = "2"><strong>ISS Governance Quick Score - </strong>4100 companies, 25 markets. Includes Board structure and policies, Compensation and remuneration, Shareholder rights, Audit practices<br />
 <strong>CLSA Governance Score - </strong>495 companies, 25 countries. Includes Discipline, &nbsp;Transparency, Independency ,, Accountability, Responsibility, &nbsp;Fairness , Social awareness<br />
-<strong>S &amp; P CGS - </strong>Includes Ownership, Structure &amp; Influence, Financial Stakeholder Rights and Relations, Financial Transparency and Information Disclosure, Board Structure and Process</p></font>
+<strong>S &amp; P CGS - </strong>Includes Ownership, Structure &amp; Influence, Financial Stakeholder Rights and Relations, Financial Transparency and Information Disclosure, Board Structure and Process</font></p>
 
 <p><h3><strong>The data </strong></h3>
 <font size = "2">

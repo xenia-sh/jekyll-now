@@ -24,33 +24,9 @@ This research was based on <a href="https://papers.ssrn.com/sol3/papers.cfm?abst
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt="RÃ©sultat de recherche d'images pour &quot;institutional shareholder services&quot;" src="https://www.issgovernance.com/file/2014/09/Header-Logo.png" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="https://lh5.googleusercontent.com/wBhkDWBr4Zu1WR9d0qtApr-XsVW4VgoiwMSnqtobiswguuJPrt94DrVUVTk7Hzdx0bghg5_noSRK9YzZ86cSMqA5pqp3WTv0fYwH7Ur1xBDQD1265gPbr0aZEqOXEjN4cNRh3TUw" style="height:52px; width:110px" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="https://lh5.googleusercontent.com/cF0ueamssyyqSicT3wnx5_0_lrRqCU35064WURcMaQRPLV1-iw0RmSsjGWp2RhvQjGmMtpYUCaX7rRR0lCfJ3-u8dN637cTyQ_CEMJ1u7tkm7j_TcW2zyxOMhs8x2OyLUahFbfWa" style="height:66px; width:132px" /><br />
 Below is the table comparing their scores and methodologies. They&rsquo;re essentially questionnaires on a variety of subjects, upon which later the score is given. &nbsp;The one used by me was CLSA.&nbsp;</p></font>
 
-<table border="1" cellpadding="1" cellspacing="1" style="width:1000px">
-	<tbody>
-		<tr>
-			<td><font size = "2">ISS Governance Quick Score</font></td>
-			<td><font size = "2">4100 companies, 25 countries</font></td>
-			<td><font size = "2">Board structure and policies,
-				&nbsp;Compensation and remuneration,
-				&nbsp;Shareholder rights,&nbsp;Audit practices</font>
-</td>
-		</tr>
-		<tr>
-			<td><font size = "2">CLSA Governance Score</font></td>
-			<td><font size = "2">495 companies, 25 countries</font></td>
-			<td><font size = "2">Discipline, Transparency, Independency, 
-				Accountability, Responsibility, 
-				Fairness, Social awareness</font></td>
-		</tr>
-		<tr>
-			<td><font size = "2">S &amp; P CGS</font></td>
-			<td>&nbsp;</td>
-			<td><font size = "2">Ownership Structure &amp; 
-				Influence, Financial Stakeholder Rights and Relations, 
-				Financial Transparency and Information Disclosure, 
-				Board Structure and Process</font></td>
-		</tr>
-	</tbody>
-</table>
+<p><strong>ISS Governance Quick Score - </strong>4100 companies, 25 markets. Includes Board structure and policies, Compensation and remuneration, Shareholder rights, Audit practices<br />
+<strong>CLSA Governance Score - </strong>495 companies, 25 countries. Includes Discipline, &nbsp;Transparency, Independency ,, Accountability, Responsibility, &nbsp;Fairness , Social awareness<br />
+<strong>S &amp; P CGS - </strong>Includes Ownership, Structure &amp; Influence, Financial Stakeholder Rights and Relations, Financial Transparency and Information Disclosure, Board Structure and Process</p>
 
 <p><h3><strong>The data </strong></h3>
 <font size = "2">

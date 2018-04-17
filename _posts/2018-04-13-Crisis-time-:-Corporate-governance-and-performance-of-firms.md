@@ -29,20 +29,25 @@ Below is the table comparing their scores and methodologies. They&rsquo;re essen
 		<tr>
 			<td><font size = "2">ISS Governance Quick Score</font></td>
 			<td><font size = "2">4100 companies, 25 countries</font></td>
-			<td><font size = "2">Board structure and policies,&nbsp;Compensation and remuneration,&nbsp;Shareholder rights,&nbsp;Audit practices</font>
+			<td><font size = "2">Board structure and policies,
+				&nbsp;Compensation and remuneration,
+				&nbsp;Shareholder rights,&nbsp;Audit practices</font>
 </td>
 		</tr>
 		<tr>
 			<td><font size = "2">CLSA Governance Score</font></td>
 			<td><font size = "2">495 companies, 25 countries</font></td>
-			<td><font size = "2">Discipline, Transparency, Independency, Accountability, 
-				Responsibility, Fairness, Social awareness</font></td>
+			<td><font size = "2">Discipline, Transparency, Independency, 
+				Accountability, Responsibility, 
+				Fairness, Social awareness</font></td>
 		</tr>
 		<tr>
 			<td><font size = "2">S &amp; P CGS</font></td>
 			<td>&nbsp;</td>
-			<td><font size = "2">Ownership Structure &amp; Influence, Financial Stakeholder Rights and Relations, 
-				Financial Transparency and Information Disclosure, Board Structure and Process</font></td>
+			<td><font size = "2">Ownership Structure &amp; 
+				Influence, Financial Stakeholder Rights and Relations, 
+				Financial Transparency and Information Disclosure, 
+				Board Structure and Process</font></td>
 		</tr>
 	</tbody>
 </table>

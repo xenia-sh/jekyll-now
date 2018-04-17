@@ -1,7 +1,7 @@
 ---
 <font size = "2"><p>This post is about a well-known case in DS community in general - <a href="https://www.kaggle.com/c/santander-product-recommendation">Santander Product Recommendation Challenge</a>.<br />
   <br />
-Though I used rather than wrote the code myself (<a href="https://www.kaggle.com/apryor6/detailed-cleaning-visualization-python">kernel 1</a> &nbsp;and <a href="https://www.kaggle.com/sudalairajkumar/when-less-is-more">kernel 2</a> ) only adding a few things, this one is notable because it gave me both tools and inspiration for continuing to explore how and why bank clients choose certain products.</p></font>
+Though I used rather than wrote the code myself (<a href="https://www.kaggle.com/apryor6/detailed-cleaning-visualization-python">kernel 1</a> &nbsp;and <a href="https://www.kaggle.com/sudalairajkumar/when-less-is-more">kernel 2</a> ) only adding a few things, this one is notable because it gave me both tools and inspiration for continuing to explore how and why bank clients choose certain products.</p>
 
 <h3><strong>Task setting</strong></h3>
 <p>I won&rsquo;t spend too much time explaining the setting and data as Kaggle and seasoned competitors do it so much better than me. In short - Santander asks to predict which additional products will customers buy in a given month (3 to 4% of them indeed buy something new in addition to what they already have, and thus the maximum prediction accuracy is 4%).<br />
@@ -109,4 +109,4 @@ Getting the top products..<br />
   
 <img src="https://lh5.googleusercontent.com/upzYMuuNBre9TdGBQ7MoQJC88gfanjK9UiS8WZsp2m5BxLVpPmclTJyn04lKlDu7280iugAzl72BzpBaLqFLmbQpdZ0M0BSfX0NhxQRJDoEjGhtKYRNJ95GjSjt6aQBkfgzsEIKk" style="height:44px; width:624px" /><br />
   
-The prediction quality has improved, but ever so slightly. .</p>
+The prediction quality has improved, but ever so slightly. </font></p>

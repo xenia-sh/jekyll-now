@@ -1,5 +1,5 @@
 
-<p><font size="2">First of all, this is an interesting story (and an even more interesting dataset)<font>.
+<p><font size="2">This post is a work in progress. First of all, this is an interesting story (and an even more interesting dataset). <font>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="https://lh6.googleusercontent.com/c5rXEmpnUUzvwhHicFHhVteAjGcDu-qhCpyapZ8oQOybb5kaD4PRF5xI_6_MbhAszAPTw99DE15C3qMDGGH7MJW1mzmyTjkBOU-qcSDzjXev3ln0fuvgDWatX3w8FJfXTDRiAdFa" style="height:132px; width:624px" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
 
 ---
@@ -76,3 +76,28 @@ Writing a script for a &ldquo;long&rdquo; dataset and displaying results by grou
 </ul>
 
 <p>There is also last activity online.</font></p>
+
+<p><strong>The data</strong><br />
+	
+<font size="2">First thoughts on what to do with data:</p>
+
+<ul>
+	<li>
+	<p>Join the variables in one category together, delete repeating ones</p>
+	</li>
+	<li>
+	<p>Introduce one separator between words in one field</p>
+	</li>
+	<li>
+	<p>Delete signs like &ldquo;?&rdquo;, &ldquo;!&rdquo;, &ldquo;@&rdquo;</p>
+	</li>
+	<li>
+	<p>Average/max number of connections over all</p>
+	</li>
+	<li>
+	<p>Unclear on how to account for last time online (&ldquo;3 hours ago&rdquo; or a specific day do not say anything)</p>
+	</li>
+	<li>
+	<p>Industry is only indicated for 300 people so can probably be removed</p>
+	</li>
+</font></ul>

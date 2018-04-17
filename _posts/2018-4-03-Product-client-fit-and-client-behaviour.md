@@ -1,10 +1,10 @@
 
-<p>This post is work in progress.<br />
-Disclaimer: The purpose of this post is to demonstrate the logic and the methodology, model choice, etc. The features and predicted products have been totally anonymized and partially scrambled by the author. Demonstrated results cannot be perceived or interpreted as real data of any financial organization.&nbsp;</p>
-</br>
+<p><font size="2">This post is work in progress.<br />
+Disclaimer: The purpose of this post is to demonstrate the logic and the methodology, model choice, etc. The features and predicted products have been totally anonymized and partially scrambled by the author. Demonstrated results cannot be perceived or interpreted as real data of any financial organization.&nbsp;</font></p>
+
 ---
 
-<p>This case is similar to the previous one (product client fit), however, both the product and the dataset are different.<br />
+<p><font size="2">This case is similar to the previous one (product client fit), however, both the product and the dataset are different.<br />
 In this case it&rsquo;s interesting to concentrate more on the behavior of the clients first, see what is happening if looking at time dynamic.<br />
 The features and products, as before, are anonymized completely.<br />
 <br />
@@ -53,6 +53,6 @@ Instead, it could be:</p>
 <p>Here for client 1 product one was bought twice (and with an overlap), and for client 2 product 2 was bought twice (without an overlap).<br />
 <img src="https://lh5.googleusercontent.com/rWGAjRaeEeRPsXgn0NNXpzBrnkz76NvfGUhCzSplcUpiWLRy48t1XMhGwG4zDqQV9aj0yWBqX1-j29Ann-XfLLfDwaGJEmAjDShW17vGnORx1qK4GiMFkHk1SpO0hHEcjH8IwwZS" style="height:115px; width:355px" /><br />
 In SQL it&rsquo;s possible to count the times client bought and dropped a particular product and if both/either were more than once, tag the client as &ldquo;multiple user&rdquo; as a separate feature in the dataset.<br />
-Also, it&rsquo;s obviously worth paying attention to periods which are used for prediction - if the december is predicted, it makes more sense to predict it with december data rather then with the whole year data, for instance.</p>
+Also, it&rsquo;s obviously worth paying attention to periods which are used for prediction - if the december is predicted, it makes more sense to predict it with december data rather then with the whole year data, for instance.</font></p>
 
 

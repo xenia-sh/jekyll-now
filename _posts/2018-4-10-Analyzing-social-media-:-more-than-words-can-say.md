@@ -75,11 +75,11 @@ Writing a script for a &ldquo;long&rdquo; dataset and displaying results by grou
 	</li>
 </ul>
 
-<p>There is also last activity online.</font></p>
+<p>There is also last activity online.</p>
 
 <p><strong>The data</strong><br />
 	
-<font size="2">First thoughts on what to do with data:</p>
+First thoughts on what to do with data:</p>
 
 <ul>
 	<li>
@@ -100,4 +100,4 @@ Writing a script for a &ldquo;long&rdquo; dataset and displaying results by grou
 	<li>
 	<p>Industry is only indicated for 300 people so can probably be removed</p>
 	</li>
-</font></ul>
+</ul></font>

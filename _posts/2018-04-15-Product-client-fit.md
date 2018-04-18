@@ -39,10 +39,10 @@ plt.title(cols[i])<br />
 plt.yscale(&#39;log&#39;) #log scale of the axis<br />
 plt.xscale(&#39;log&#39;)</code></div>
 
-<p><img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/blob/master/images/graphs_features_1.png" />
-<img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/blob/master/images/graphs_features_2.png" />
-<img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/blob/master/images/graphs_features_3.png" />
-<img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/blob/master/images/graphs_features_4.png" />
+<p><img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/graphs_features_1.png" />
+<img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/graphs_features_2.png" />
+<img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/graphs_features_3.png" />
+<img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/graphs_features_4.png" />
 <br />
 From that already we can see that most of the variables are categories - features one to 5 are. Also there&rsquo;s a very strong correlation between features 10 and 11 both in test (red) and in train datasets. Also it&rsquo;s visually clear that dataset for train is bigger in volumes as dataset test. Visualisation of the correlation matrix (higher correlations are highlighted):</p>
 
@@ -109,8 +109,8 @@ plt.barh(range(13), importances6[importances6_logreg], color=colors[importances6
 plt.yticks(range(13), features[importances6_logreg])<br />
 plt.show()</code></div>
 
-<p><img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/blob/master/images/features_6_part1.png" />
-<p><img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/blob/master/images/features_6_part2.png" />
+<p><img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/features_6_part1.png" />
+<p><img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/features_6_part2.png" />
 	<br />
 Here it&rsquo;s clear that the factors importance for these models is not drastically different - the weights are very close for each feature (the first graph is sorted, while the second one is not, this is why the order is different).<br />
 <br />
@@ -182,7 +182,7 @@ Let&rsquo;s take a look at the signal by category:</p>
 
 
 
-<p><img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/blob/master/images/features_last.png" /><br />
+<p><img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/features_last.png" /><br />
 For products 2, 6 and 7 there is practically nobody buying them in category 2.<br />
 <strong>Ideas</strong><br />
 <br />

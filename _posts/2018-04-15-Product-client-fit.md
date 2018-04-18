@@ -109,8 +109,7 @@ plt.barh(range(13), importances6[importances6_logreg], color=colors[importances6
 plt.yticks(range(13), features[importances6_logreg])<br />
 plt.show()</code></div>
 
-<p><img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/features_6_part1.png" />
-<p><img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/features_6_part2.png" />
+<p><img src="https://lh3.googleusercontent.com/nqbikmgbeRsWe45EWEbdTWk_mU-kY_dSD0ZXq3sdxQ-yF2YdDs5afPYmCb9cW2Putpw8WQWIHSvL_1XLJHY7r1u-g8FyxsbnsJqHUplxtSbIEETFImSW42eS_D2e-7tf9OHC6f4G" style="height:431px; width:322px" /></p>
 	<br />
 Here it&rsquo;s clear that the factors importance for these models is not drastically different - the weights are very close for each feature (the first graph is sorted, while the second one is not, this is why the order is different).<br />
 <br />
@@ -129,8 +128,9 @@ axes[0, 0].barh(range(len(indices)), importances1[indices], color=colors[indices
 plt.sca(axes[0,0])<br />
 plt.yticks(range(len(indices)), features[indices])</code></div>
 
-<p><img src="https://lh6.googleusercontent.com/PpdrxrE0Gwo9oDWkQf1yuiGYiAGVQBlc0QoLhHdMe74pYtbWobLZ0-OXdtZqZ5vQMI9PI5FnzWbRcuW7hjTIvHXUlM8rrzvJ4jp1r3ts1yo2gqllCXKP6-xQ9K9W6ne_DL0R4rvl" style="height:237px; width:500px" /><br />
-<img src="https://lh5.googleusercontent.com/LFmZRUzvGc0zTcSS6_knORvD6WkpcWGAs-_B70wiYPzBm_Rc_o1PdYvrIMGmiT0bWT5NxwDcDolvSa6dfg42L02kwVsfDX-UHuQ3F-XeaB0u8VqMrWmJmj2y8_rRnMHaPm9imZ2D" style="height:229px; width:497px" /><br />
+<p><img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/features_6_part1.png" />
+<p><img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/features_6_part2.png" />	
+	<br />
 Products 1-4 have a similar importance of features, while products 5 and 7 (the sixth was represented above) have a different thing going on - for product five the most important feature by far is feature3, and for product seven it&rsquo;s the same but with feature4. It&rsquo;s logical to assume that these products are meant for a specific client category (persioneers, young people, teenagers, travelers etc.)<br />
 It&rsquo;s also notable that the most important features for majority of the products are numeric (financial) ones, thus how the client is using the offered services is in most cases more important than in what category she is.</p>
 

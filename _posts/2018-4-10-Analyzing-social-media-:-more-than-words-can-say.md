@@ -12,7 +12,7 @@ Upon looking at what we have I&rsquo;ve found out that the tables available are 
 
 <p><font size="2">Out of these tables I chose Google, Youtube, Facebook, &nbsp;Twitter and Blogger. The great thing about this dataset is that it&rsquo;s versatile and contains truly a lot of data - but <strong>for this study the more superficial data points such as music, books, hobbies, films, emails and links</strong>, which are tailored to the person specifically, <strong>are omitted</strong>.<br />
 <br />
-The fields interesting for the analysis are:</p>
+The fields interesting for the analysis are:
 
 <ul>
 	<li>
@@ -104,7 +104,7 @@ First thoughts on what to do with data:</p>
 	<p>Industry is only indicated for 300 people so can probably be removed</p>
 	</li>
 </ul></font>
-<p><font size="2">Let&rsquo;s take a look at the data:</p>
+<p><font size="2">Let&rsquo;s take a look at the data:
 
 <div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>str(DATASET_SOCIAL_MEDIA_2)</code></div>
 
@@ -139,7 +139,8 @@ $ connections_total &nbsp;&nbsp;&nbsp;&nbsp;: int NA NA NA NA NA NA NA NA NA NA 
 
 <p>Connections together (in every social media):</p>
 
-<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>DATASET_SOCIAL_MEDIA_2$connections_total&lt;-DATASET_SOCIAL_MEDIA_2$n_connections_facebook+DATASET_SOCIAL_MEDIA_2$n_connections_twitter+DATASET_SOCIAL_MEDIA_2$connections_youtube<br />
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>DATASET_SOCIAL_MEDIA_2$connections_total&lt;-DATASET_SOCIAL_MEDIA_2$n_connections_facebook+DATASET_SOCIAL_MEDIA_2$n_connections_twitter<br/>
+	+DATASET_SOCIAL_MEDIA_2$connections_youtube<br />
 &gt; #creating total number of connections<br />
 &gt; summary(DATASET_SOCIAL_MEDIA_2$connections_total)<br />
 Min. 1st Qu. &nbsp;Median Mean 3rd Qu. &nbsp;&nbsp;&nbsp;Max. NA&#39;s<br />
@@ -171,6 +172,6 @@ A curious thing is immediately clear - there are <strong>a lot more men than wom
 <div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>DATASET_SOCIAL_MEDIA_2$schools_all &lt;- gsub(&#39;NA&#39;, &#39;&#39;, DATASET_SOCIAL_MEDIA_2$schools_all)</code></div>
 
 <p><br />
-The full code for this task (ongoing) can be found at <a href="https://github.com/xenia-sh/bag_of_words_socialmedia">my Github</a></font>.</p>
+The full code for this task (ongoing) can be found at <a href="https://github.com/xenia-sh/bag_of_words_socialmedia">my Github</a></font></p>.
 
 

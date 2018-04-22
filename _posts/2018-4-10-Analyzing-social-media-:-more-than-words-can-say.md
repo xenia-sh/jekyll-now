@@ -83,7 +83,7 @@ First thoughts on what to do with data:</p>
 
 <ul>
 	<li>
-	<p>Join the variables in one category together, delete repeating ones</p>
+	<p>Join the variables in one category together, delete replicating ones</p>
 	</li>
 	<li>
 	<p>Introduce one separator between words in one field</p>
@@ -98,6 +98,79 @@ First thoughts on what to do with data:</p>
 	<p>Unclear on how to account for last time online (&ldquo;3 hours ago&rdquo; or a specific day do not say anything)</p>
 	</li>
 	<li>
+	<p>Most common locations (possibly a map), schools,companies, professions</p>
+	</li>
+	<li>
 	<p>Industry is only indicated for 300 people so can probably be removed</p>
 	</li>
 </ul></font>
+<p><font size="2">Let&rsquo;s take a look at the data:</p>
+
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>str(DATASET_SOCIAL_MEDIA_2)</code></div>
+
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>Classes &lsquo;tbl_df&rsquo;, &lsquo;tbl&rsquo; and &#39;data.frame&#39;:&nbsp;&nbsp; &nbsp;35265 obs. of &nbsp;27 variables:<br />
+$ gid &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: chr &quot;001.deepak&quot; &quot;02chan.com&quot; &quot;03devildog&quot; &quot;0404wyt&quot; ...<br />
+$ gender_facebook &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: chr NA NA &quot;Male&quot; NA ...<br />
+$ location_facebook &nbsp;&nbsp;&nbsp;&nbsp;: chr NA NA &quot;San Diego California&quot; NA ...<br />
+$ schools_facebook &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: chr NA NA &quot;San Diego State University \\&#39;99 &nbsp;Palomar \\&#39;73 San&quot; NA ...<br />
+$ companies_facebook &nbsp;&nbsp;&nbsp;: chr NA NA &quot;Caliburnus Enterprises&quot; NA ...<br />
+$ age_group_facebook &nbsp;&nbsp;&nbsp;: chr NA NA NA NA ...<br />
+$ n_connections_facebook: int &nbsp;NA NA 1208 NA NA 509 NA NA 689 NA ...<br />
+$ occupation_google &nbsp;&nbsp;&nbsp;&nbsp;: chr &quot;student&quot; &quot;advertiser&quot; &quot;business &amp;amp &nbsp;&nbsp;internet services &amp;amp consultin&quot; &quot;student&quot; ...<br />
+$ companies_google &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: chr NA NA &quot;mcrd museum historical society &nbsp;&nbsp;decor &amp;amp styl&quot; NA ...<br />
+$ schools_google &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: chr &quot;ryan international school &nbsp;delhi&quot; NA &quot;san diego state university (mba - 1999) &nbsp;&nbsp;uc san d&quot; NA ...<br />
+$ organization_google &nbsp;&nbsp;: chr NA NA &quot;caliburnus enterprises&quot; NA ...<br />
+$ location_google &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: chr &quot;pune india&quot; &quot;shanghai&quot; &quot;san diego &nbsp;california&quot; &quot;&amp;#38271 &amp;#27801&quot; ...<br />
+$ age_youtube &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: int 23 27 NA 31 NA 24 NA NA 21 31 ...<br />
+$ location_youtube &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: chr &quot;India&quot; &quot;China&quot; NA &quot;United States&quot; ...<br />
+$ last_active_youtube &nbsp;&nbsp;: chr &quot;Jul 22 2011&quot; &quot;Jul 25 &nbsp;2011&quot; NA &quot;8 months ago&quot; ...<br />
+$ occupation_youtube &nbsp;&nbsp;&nbsp;: chr NA NA NA NA ...<br />
+$ companies_youtube &nbsp;&nbsp;&nbsp;&nbsp;: chr NA NA NA NA ...<br />
+$ schools_youtube &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: chr NA NA NA NA ...<br />
+$ connections_youtube &nbsp;&nbsp;: int 0 0 NA 0 8 2 0 NA 17 190 ...<br />
+$ location_twitter &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: chr NA &quot;shanghai&quot; &quot;San Diego &nbsp;CA&quot; &quot;china&quot; ...<br />
+$ last_active_twitter &nbsp;&nbsp;: chr NA &quot;Thu Jul 09 07:44:07 +0000 2009&quot; &quot;Sat Mar 13 00:56:05 +0000 2010&quot; &quot;Sat Sep 24 08:24:08 +0000 2011&quot; ...<br />
+$ n_connections_twitter : int &nbsp;NA 31 37 119 234 NA 163 27 NA 76 ...<br />
+$ gender_blogger &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: chr NA NA NA NA ...<br />
+$ location_blogger &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: chr NA NA NA NA ...<br />
+$ industry_blogger &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: chr NA NA NA NA ...<br />
+$ occupation_blogger &nbsp;&nbsp;&nbsp;: chr NA NA NA NA ...<br />
+$ connections_total &nbsp;&nbsp;&nbsp;&nbsp;: int NA NA NA NA NA NA NA NA NA NA ...</code></div>
+
+<p>Connections together (in every social media):</p>
+
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>DATASET_SOCIAL_MEDIA_2$connections_total&lt;-DATASET_SOCIAL_MEDIA_2$n_connections_facebook+DATASET_SOCIAL_MEDIA_2$n_connections_twitter+DATASET_SOCIAL_MEDIA_2$connections_youtube<br />
+&gt; #creating total number of connections<br />
+&gt; summary(DATASET_SOCIAL_MEDIA_2$connections_total)<br />
+Min. 1st Qu. &nbsp;Median Mean 3rd Qu. &nbsp;&nbsp;&nbsp;Max. NA&#39;s<br />
+5 373 &nbsp;&nbsp;&nbsp;&nbsp;744 2804 1631 6148860 &nbsp;&nbsp;26840</code></div>
+
+<p>Most of people have about 400 to 600 connections on Facebook.</p>
+
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>hist(DATASET_SOCIAL_MEDIA_2$n_connections_facebook, breaks=100)</code></div>
+
+<p><img src="https://lh5.googleusercontent.com/vf6AF5bHkH27IwMAR9E6PCBVitlMZAZ8WO9K180twZdqDCTq7p2e7rxu0eoEB194o9ctUWrQghI0eEStMVp1KaTy6Zau3ZaZVo86Sk84S02JvkOagWdoaU_VqHrtnbHsyiCaGnH9" style="height:320px; width:624px" /><br />
+A curious thing is immediately clear - there are <strong>a lot more men than women</strong> for those likes who have the gender. &nbsp;80% or more of what we are seeing filled in are men.</p>
+
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>&gt; length(which(DATASET_SOCIAL_MEDIA_2$gender_blogger==&quot;Female&quot;))<br />
+[1] 463<br />
+&gt; length(which(DATASET_SOCIAL_MEDIA_2$gender_blogger==&quot;Male&quot;))<br />
+[1] 1582<br />
+&gt; length(which(DATASET_SOCIAL_MEDIA_2$gender_facebook==&quot;Female&quot;))<br />
+[1] 2542<br />
+&gt; length(which(DATASET_SOCIAL_MEDIA_2$gender_facebook==&quot;Male&quot;))<br />
+[1] 16139</code></div>
+
+<p>Then we unite everything in one column, for example:</p>
+
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>schools_cols &lt;- c(&#39;schools_facebook&#39;, &#39;schools_google&#39;, &#39;schools_youtube&#39;)<br />
+&gt; DATASET_SOCIAL_MEDIA_2$schools_all &lt;- apply(DATASET_SOCIAL_MEDIA_2[, schools_cols], 1, paste, collapse = &quot; &quot;)</code></div>
+
+<p>Replacing the NA values:</p>
+
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>DATASET_SOCIAL_MEDIA_2$schools_all &lt;- gsub(&#39;NA&#39;, &#39;&#39;, DATASET_SOCIAL_MEDIA_2$schools_all)</code></div>
+
+<p><br />
+The full code for this task (ongoing) can be found at <a href="https://github.com/xenia-sh/bag_of_words_socialmedia">my Github</a></font>.</p>
+
+

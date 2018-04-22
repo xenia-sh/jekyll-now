@@ -172,6 +172,6 @@ A curious thing is immediately clear - there are <strong>a lot more men than wom
 <div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>DATASET_SOCIAL_MEDIA_2$schools_all &lt;- gsub(&#39;NA&#39;, &#39;&#39;, DATASET_SOCIAL_MEDIA_2$schools_all)</code></div>
 
 <p><br />
-The full code for this task (ongoing) can be found at <a href="https://github.com/xenia-sh/bag_of_words_socialmedia">my Github</a></p></font>.
+The full code for this task (ongoing) can be found at <a href="https://github.com/xenia-sh/bag_of_words_socialmedia">my Github</a></font></p>.
 
 

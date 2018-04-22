@@ -8,7 +8,7 @@
 First I thought about expanding on that and looking at behavior of Microsoft stocks more closely, but then, almost immediately, I had an idea - what about the people? Are people working for Microsoft any different from employees of other companies? And if they are, in what way? And this ultimately led to me searching for data of people&rsquo;s social media accounts and this study (especially since it&rsquo;s analyzing text rather than numerical values as in previous posts).<br />
 <br />
 Not long after I came across <a href="https://aminer.org/data-sna#Linkedin">this</a> dataset which is data on nearly 160 000 social media accounts. It&rsquo;s in MySQL Dump format, and for converting it to CSV using Python <a href="https://github.com/jamesmishra/mysqldump-to-csv">this&nbsp;tutorial</a> is quite helpful.<br />
-Upon looking at what we have I&rsquo;ve found out that the tables available are &ldquo;multiple blogger&rdquo;, &ldquo;multiple facebook&rdquo;, &ldquo;multiple flickr&rdquo;, &ldquo;multiple google&rdquo;, &ldquo;multiple lastfm&rdquo;, &ldquo;multiple livejournal&rdquo; , &ldquo;multiple myspace&rdquo;, &ldquo;multiple picasaweb&rdquo;, &ldquo;multiple twitter&rdquo; and &ldquo;multiple youtube&rdquo;. So, basically, every social network out there!<font></p>
+Upon looking at what we have I&rsquo;ve found out that the tables available are &ldquo;multiple blogger&rdquo;, &ldquo;multiple facebook&rdquo;, &ldquo;multiple flickr&rdquo;, &ldquo;multiple google&rdquo;, &ldquo;multiple lastfm&rdquo;, &ldquo;multiple livejournal&rdquo; , &ldquo;multiple myspace&rdquo;, &ldquo;multiple picasaweb&rdquo;, &ldquo;multiple twitter&rdquo; and &ldquo;multiple youtube&rdquo;. So, basically, every social network out there!</font></p>
 
 <p><font size="2">Out of these tables I chose Google, Youtube, Facebook, &nbsp;Twitter and Blogger. The great thing about this dataset is that it&rsquo;s versatile and contains truly a lot of data - but <strong>for this study the more superficial data points such as music, books, hobbies, films, emails and links</strong>, which are tailored to the person specifically, <strong>are omitted</strong>.<br />
 <br />
@@ -172,6 +172,6 @@ A curious thing is immediately clear - there are <strong>a lot more men than wom
 <div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>DATASET_SOCIAL_MEDIA_2$schools_all &lt;- gsub(&#39;NA&#39;, &#39;&#39;, DATASET_SOCIAL_MEDIA_2$schools_all)</code></div>
 
 <p><br />
-The full code for this task (ongoing) can be found at <a href="https://github.com/xenia-sh/bag_of_words_socialmedia">my Github</a></font></p>.
+The full code for this task (ongoing) can be found at <a href="https://github.com/xenia-sh/bag_of_words_socialmedia">my Github</a></p></font>.
 
 

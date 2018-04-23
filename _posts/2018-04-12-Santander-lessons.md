@@ -110,4 +110,9 @@ Getting the top products..<br />
 <img src="https://lh5.googleusercontent.com/upzYMuuNBre9TdGBQ7MoQJC88gfanjK9UiS8WZsp2m5BxLVpPmclTJyn04lKlDu7280iugAzl72BzpBaLqFLmbQpdZ0M0BSfX0NhxQRJDoEjGhtKYRNJ95GjSjt6aQBkfgzsEIKk" style="height:44px; width:624px" /><br />
   
 The prediction quality has improved, but ever so slightly. <br />
+
+<p>Here, on the contrary, is the result of the forked script &ldquo;When less is more&rdquo; as it is result:<br />
+<img src="https://lh6.googleusercontent.com/Jm7vnSyAhRCvCXmjF5rtEQgsAuMOgTarCZmYeZBx5NMA7snvaNLG8-TGqnL6dIGdETdVoDs8WnWQmOL4Ohw7iGV0R89pSVNgxjpXahh-E0Pl-jX4BbYqfs2VtiBdD6C1cz2DkOKG" style="height:48px; width:624px" /><br />
+Almost a whole percent more (which implies that either the cleaning script, though worked well, didn&rsquo;t add to the overall score, or the limitation of only June which I did outside of Python (in SQL in fact) did not work well).</p>
+
 All the code for this task is at <a href="https://github.com/xenia-sh/kaggle_miscellaneous">my Github</a>.</p></font>

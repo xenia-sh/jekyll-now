@@ -75,10 +75,6 @@ for i in range(0,12):<br />
 &nbsp; &nbsp;print(dataset[cols[i]].isnull().sum())<br />
 &nbsp; &nbsp;print(dataset[cols[i]].count())</code></div>
 
-<p style="font-style: italic;">&nbsp;</p>
-
-<h2 style="font-style:italic;">&nbsp;</h2>
-
 <p>First, as before, correlations between variables.&nbsp;<br />
 <img src="https://lh3.googleusercontent.com/a3RXgnQ8_WDvkBuqxgnexautRyTwd1Lz82ymQca6rWyrP5s2vVy5xHP72M_8mfABOAN-irATnjr3sWAt4SCvd5Ib6jsr39RoJQ8lsswTSLNxTXzBXxYTftge_4EJNyPAzcekApsY" style="height:391px; width:624px" /><br />
 Here a few things are immediately evident:<br />
@@ -136,9 +132,7 @@ plt.ylabel(&#39;True Positive Rate&#39;)<br />
 plt.title(&#39;ROC Curves (red for Random Forest, blue for XGBoost)&#39;)<br />
 plt.show()</code></div>
 
-<h2 style="font-style:italic;">&nbsp;</h2>
-
-<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="https://lh5.googleusercontent.com/S6QpG_f6d4EEwwS7dO2slCxnOpvJ4PoFX6jqnKYJg081R_qaMuz0Wy7I2iZj26rtqc3UwDKmw3AwgdnBKu7u6DAgbhdaIOdWn2kbgS3GjZBjsVT-aWraMDSxomWeFV25VQGnuJIf" style="height:316px; width:446px" /><br />
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="https://lh5.googleusercontent.com/S6QpG_f6d4EEwwS7dO2slCxnOpvJ4PoFX6jqnKYJg081R_qaMuz0Wy7I2iZj26rtqc3UwDKmw3AwgdnBKu7u6DAgbhdaIOdWn2kbgS3GjZBjsVT-aWraMDSxomWeFV25VQGnuJIf" /><br />
 One of model validation tools that I haven&rsquo;t yet shown in the blog, but an important and widely used one, is cross validation. It&rsquo;s regarded as a solution to overfitting. In cross-validation, fixed number of folds (or partitions) of the data is made, then the analysis on each fold is run, and then average the overall error estimate is produced. The question is &ndash; what is the optimal number of folds?</p>
 
 <div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>#Cross validation for random forest&nbsp;<br />

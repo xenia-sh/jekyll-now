@@ -94,6 +94,7 @@ The second problem with it is, obviously, correlation variables (as better to ch
 model = sm.OLS(output_train[&#39;TARGET&#39;],input_train[cols], missing=&#39;drop&#39;)<br />
 results=model.fit()<br />
 output_train[&#39;TARGET1&#39;]&nbsp; = results.predict(input_train[cols]) #predicting on TRAIN</code></div>
+<br />
 
 <p>Doing the prediction, replacing empty values (about 1/6 of the dataset which is significant) with mean ones from the previous submission, and here&rsquo;s the result:</p>
 

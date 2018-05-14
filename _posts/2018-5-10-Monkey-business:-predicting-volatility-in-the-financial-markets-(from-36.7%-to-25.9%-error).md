@@ -95,13 +95,6 @@ model = sm.OLS(output_train[&#39;TARGET&#39;],input_train[cols], missing=&#39;dr
 results=model.fit()<br />
 output_train[&#39;TARGET1&#39;]&nbsp; = results.predict(input_train[cols]) #predicting on TRAIN</code></div>
 
-
-
-<p>Here are the scores of the &ldquo;mean method&rdquo;, i.e. just putting mean as target, and of OLS one. This is on train dataset, as no target test data available (obviously, as this is what results are scored against).</p>
-
-
-
-
 <p>Doing the prediction, replacing empty values (about 1/6 of the dataset which is significant) with mean ones from the previous submission, and here&rsquo;s the result:</p>
 
 

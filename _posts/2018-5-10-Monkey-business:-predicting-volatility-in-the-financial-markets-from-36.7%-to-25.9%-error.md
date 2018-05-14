@@ -83,5 +83,35 @@ output_test=pd.concat([input_test[&#39;ID&#39;],input_test[&#39;volatility_mean&
 <p> The best top-dashboard score is 20.96%.<br />
 <br />
 Then again, I don&rsquo;t have a model yet. J There&rsquo;s definitely room for score improvement.<br />
-<br />
-Some code can be found <a href="https://github.com/xenia-sh/cfm_volatility_prediction">here</a>.</font></p>
+<br /></p>
+<h3><strong>OLS method (simple linear regression)</strong></h3>
+
+<p>Let&rsquo;s add the model then. The simplest one is linear regression, OLS (ordinary least squares) method.<br />
+The first problem with it is that it does not allow empty values (they have to be replaced or removed, as in the example with the &lsquo;missing&rsquo; parameter).<br />
+The second problem with it is, obviously, correlation variables (as better to check whether columns are strongly correlated or not).</p>
+
+<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"><code>#simple OLS model with a non-binary output<br />
+model = sm.OLS(output_train[&#39;TARGET&#39;],input_train[cols], missing=&#39;drop&#39;)<br />
+results=model.fit()<br />
+output_train[&#39;TARGET1&#39;]&nbsp; = results.predict(input_train[cols]) #predicting on TRAIN</code></div>
+
+
+
+<p>Here are the scores of the &ldquo;mean method&rdquo;, i.e. just putting mean as target, and of OLS one. This is on train dataset, as no target test data available (obviously, as this is what results are scored against).</p>
+
+
+
+<p><img src="https://lh4.googleusercontent.com/8UPtHQNYxL8YSSFUf5rzWbYEUuZLfYHv0sEGAS3QumwV-xTm8CUzXWUZaUL033SR9s-519-57grF68Mvls8clI2w0oCOi9W_XPKqkw51tTD0mf5KIMjKxCHylAVjcw1EL7-_lUcg" style="height:43px; width:252px" /></p>
+
+
+
+<p>Doing the prediction, replacing empty values (about 1/6 of the dataset which is significant) with mean ones from the previous submission, and here&rsquo;s the result:</p>
+
+
+
+<p><img src="https://lh3.googleusercontent.com/gkIeID_SbTnI_cxTtTLFJTGatD8amydq_LBvTCb1JZ1Z9WKxXX3B1xJdDmicXbLZRA9XSuEVMbCpKn_5Z-qbGO4GsnliPTsYKncH_5PMKN_-k4gQl4pnDlYG-EQGEqml12RA9BC8" style="height:31px; width:624px" /></p>
+
+
+
+<p>Much better already.</p>
+<p>Some code can be found <a href="https://github.com/xenia-sh/cfm_volatility_prediction">here</a>.</font></p>

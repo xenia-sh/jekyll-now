@@ -80,7 +80,7 @@ output_test=pd.concat([input_test[&#39;ID&#39;],input_test[&#39;volatility_mean&
 
 
 
-<p>That means that <strong>in 63% cases the mean actually gives the correct estimation of the volatility</strong> at the end of the day. The best top-dashboard score is 20.96%, that is to say in 79-80% cases the model gives the correct volatility.<br />
+<p> The best top-dashboard score is 20.96%.<br />
 <br />
 Then again, I don&rsquo;t have a model yet. J There&rsquo;s definitely room for score improvement.<br />
 <br />

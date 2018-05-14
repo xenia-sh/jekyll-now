@@ -101,9 +101,6 @@ output_train[&#39;TARGET1&#39;]&nbsp; = results.predict(input_train[cols]) #pred
 
 
 
-<p><img src="https://lh4.googleusercontent.com/8UPtHQNYxL8YSSFUf5rzWbYEUuZLfYHv0sEGAS3QumwV-xTm8CUzXWUZaUL033SR9s-519-57grF68Mvls8clI2w0oCOi9W_XPKqkw51tTD0mf5KIMjKxCHylAVjcw1EL7-_lUcg" style="height:43px; width:252px" /></p>
-
-
 
 <p>Doing the prediction, replacing empty values (about 1/6 of the dataset which is significant) with mean ones from the previous submission, and here&rsquo;s the result:</p>
 

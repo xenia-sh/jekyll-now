@@ -3,6 +3,8 @@
 <p>Curiosity killed the cat. Also, it made me register for the <a href="https://challengedata.ens.fr/en/challenge/34/volatility_prediction_in_financial_markets.html#general-information-modal">challenge</a> of predicting the volatility of selected stocks, organized this year on Challenge Data by CFM. The presentation of the challenge is available <a href="https://www.college-de-france.fr/site/stephane-mallat/Prediction-de-volatilite-de-marches-financiers-par-CFM.htm">here</a>.<br />
 This post is my first steps in analysing this purely financial dataset in the data science setting.</p>
 </font></p>
+<p><img src="https://lh6.googleusercontent.com/SAamav86wIefuJ_Z75cCGGQlBzE5t9S4wO1zOo0nXmshp_rBT1gOysQtK6oHJRCGpZY1M34yceP24sHIQWP_L4aMvd1RU8U8S1E_3gBxzaegNBzqm_MSNEr7oSLo1zYDRh2WRJSi" style="height:160px; width:314px" /></p>
+
 
 ---
 <p><font size="2">Financial datasets are very particular both in terms of models used and in particularities of the data. As Claudia Perlich, Senior Data Scientist at Two Sigma, pointed out in this <a href="https://www.youtube.com/watch?v=kBR0EtGOkzc">video</a>, the first thing that is extremely important is <strong>time</strong>, as these are time series data; and the second thing to think about is <strong>noise</strong>, that is to say signals within the data are not very clear.<br />

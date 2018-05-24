@@ -1,6 +1,8 @@
+<img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/9ee5f93f-69f2-4b01-b362-f11c3c6d8183.jpg" align="middle" style="width:200px;height:300px;" >
+
 <h3><strong>Links and resources&nbsp;</strong></h3>
 
-<p>Barry Clark and his &quot;Jekyll now&quot; repository&nbsp;for creating blogs on Github pages&nbsp;<br />
+<p><font size="2">Barry Clark and his &quot;Jekyll now&quot; repository&nbsp;for creating blogs on Github pages&nbsp;<br />
 repo on Github&nbsp;<a href="https://github.com/barryclark/jekyll-now">https://github.com/barryclark/jekyll-now</a><br />
 article on installation and features -&nbsp;<a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/</a>&nbsp;</p>
 
@@ -62,7 +64,7 @@ thus estimation of the effort required to get master status on Kaggle)&nbsp;</p>
 
 <p>Two articles in Russian on looking for a job in DS in the Bay Area.&nbsp;Brilliantly written + truly honest.&nbsp;<br />
 <a href="https://habr.com/post/295954/">https://habr.com/post/295954/</a> - part 1<br />
-<a href="https://habr.com/post/310776/">https://habr.com/post/310776/</a> - part 2</p>
+<a href="https://habr.com/post/310776/">https://habr.com/post/310776/</a> - part 2</p> 
 
 
 

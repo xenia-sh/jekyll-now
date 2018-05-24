@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/9ee5f93f-69f2-4b01-b362-f11c3c6d8183.jpg" align="middle" style="width:200px;height:300px;" >
+<img src="https://raw.githubusercontent.com/xenia-sh/xenia-sh.github.io/master/images/9ee5f93f-69f2-4b01-b362-f11c3c6d8183.jpg" align="middle" style="width:400px;height:500px;" >
 
 <h3><strong>Links and resources&nbsp;</strong></h3>
 
@@ -41,7 +41,7 @@ article on installation and features -&nbsp;<a href="https://www.smashingmagazin
 <p>The real OKCupid data (keeping an eye for future projects)&nbsp;<br />
 <a href="https://github.com/rudeboybert/JSE_OkCupid">https://github.com/rudeboybert/JSE_OkCupid</a>&nbsp;</p>
 
-<h3><br />
+<h3>
 <strong>Articles&nbsp;</strong></h3>
 
 <p>Kaggle CareerCon 2018 - an online conference for novices in the field&nbsp;<br />

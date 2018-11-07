@@ -114,7 +114,7 @@ The <strong>features</strong> that I&rsquo;m adding for <strong>day-level</stron
 <p>The model currently has layers:<br />
 &nbsp;</p>
 
-
+<p><img src="https://lh4.googleusercontent.com/j45zptslvbfwXDcPaMDf1UxUxnGp97KdQ_azn7Vy7DJNlHLyXj4TC4NP17-aVUHxgQOhA_58eu5lEC103H6bugZWPiZ9I-Kx2zD0pU-vjCCXlLzXIIZF0WOHetb2daQzQcGL2Uo1" style="height:537px; width:624px" /></p>
 
 <p><strong>Features importance and model results progress</strong></p>
 

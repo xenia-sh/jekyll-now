@@ -100,10 +100,7 @@ The <strong>features</strong> that I&rsquo;m adding for <strong>day-level</stron
 <p>First look at distribution per date and per product (these are both representing the simplest average measures):</p>
 
 
-
-<p><strong>PRODUCTS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DATES</strong><br />
-
-<p><img src="https://lh6.googleusercontent.com/hCUMFlDe_v8-IwFMWisoQMDuZduD9huPbFRhJhXpmCynN_KJWUmgBOsNg4xLUHT0BnGeGhgAdgxZ5qV4DI3dLdjucWRcqdxmhjv04rYmNFr83V5nA4uiWd_rhjc5BnQIbRX4yvAt" style="height:170px; width:367px" /> &nbsp;<img src="https://lh5.googleusercontent.com/sGKG4zguTEp4TTbjdToQhU_Iyin_36taKbDApyO8ckU-jWb_s4z_82CKDf4uZdnvq3J6fRCIf2tK_YfBSQK-J3hVfHNFDTpHsjTBYc3Bdf3Sx-0sofyjzrFbIEJW8RKzZDaiEfjx" style="height:178px; width:390px" /> &nbsp;&nbsp;<img src="https://lh4.googleusercontent.com/mXbu_Bs5unpWmZSy03mj4YkmabZXZeB9CMto6xefF1w8eE84rN1wDjvpFvQoVHHBJflvQkgIS97ffYKkGLzFWN9oInNXynuMi1MnuToMFADG2ByuNByG45V2yf0d6cQm47pjhqjI" style="height:157px; width:384px" /><img src="https://lh4.googleusercontent.com/-Eo27dVXp7TSNFzjzWBP8pEu5aCu7-Ai0_deb3qApwTRgnWs5akepMEzyTznJAN4ECdMS1p0FF_bv2WZzEQNUAKpD4ldjR2LcdBXk_AWwDnNo7NuFffytVBAUNqE00Fe8CxPcwd0" style="height:154px; width:378px" /></p>
+<p>&nbsp;&nbsp;&nbsp; &nbsp;<img src="https://lh6.googleusercontent.com/1QbGDXLlDi9pOuZL4U2z8eXp0GI_JDweL2jH5lSJv1miUQg6TIsGDGNg8oc_77J_UWRkyMUECP-ViiDaill6WLgo-zjdL7irFRa2gX9gK-1IfUrRYL1WXTm0eGkF4te9JBA2Mta9" style="height:369px; width:756px" /></p>
 
 
 <p><strong>Layering </strong></p>

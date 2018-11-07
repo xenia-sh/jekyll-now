@@ -1,6 +1,8 @@
 
 <p><img src="https://lh6.googleusercontent.com/bnm6m5Lp1Kzi9Ab23Xb0-QRAjUOUOqxEwBMbX8vindEX_n0ycBGbi26dU4Kk4X5Rb6xse-IH956B6CnWxM_wYwo2fjxxiE1FXZwnoxKEg4MP195QktT-h4ujfbZ5sAmkvxjfBj81" style="height:160px; width:314px" /><br />
 This post reflects work in progress, and ideas that are being tested/implemented at the moment. Meanwhile the competition has had a new best result (score below 20%).<br />
+
+---
 The essence is feature engineering, as not all possible add-ons to the dataset have been explored yet. The main focus is on day-level measures and product-level measures (as now the data is &ldquo;product-day&rdquo;, it&rsquo;s worth grouping it as many of other participants mention).</p>
 
 

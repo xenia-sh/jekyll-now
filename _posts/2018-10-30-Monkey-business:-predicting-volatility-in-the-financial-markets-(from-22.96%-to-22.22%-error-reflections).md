@@ -112,59 +112,6 @@ The <strong>features</strong> that I&rsquo;m adding for <strong>day-level</stron
 <p>The model currently has layers:<br />
 &nbsp;</p>
 
-<table>
-	<tbody>
-		<tr>
-			<td style="vertical-align:top">
-			<p>Basic layer</p>
-			</td>
-			<td style="vertical-align:top">
-			<p>The dataset as it is (all volatilities, all returns, product ID, day ID, line ID)</p>
-			</td>
-		</tr>
-		<tr>
-			<td style="vertical-align:top">
-			<p>&ldquo;Generated first&rdquo; (volatilities related)</p>
-			</td>
-			<td style="vertical-align:top">
-			<p>cols_new=[&#39;volatility_mean&#39;,&#39;volatility_max&#39;,&#39;volatility_min&#39;, &#39;volatility_skew&#39;, &#39;volatility_kurtosis&#39;, &#39;first_three_av&#39;, &#39;last_six_av&#39;,</p>
-
-			<p>&#39;closing_opening_spread&#39;,&#39;empty_values_volatilities&#39;,</p>
-
-			<p>&nbsp;&#39;volatility_std&#39;, &#39;volatility_median&#39;,&#39;v_acc&#39;, &#39;v_up_max&#39;, &nbsp;&#39;v_down_max&#39;, &#39;v_up_tot&#39;, &#39;v_down_tot&#39;, &#39;v_up_tot_avg&#39;, &#39;v_down_tot_avg&#39;,&#39;v_max_asym&#39;, &#39;v_tot_asym&#39;,&#39;v_tot_avg_asym&#39;]</p>
-			</td>
-		</tr>
-		<tr>
-			<td style="vertical-align:top">
-			<p>&ldquo;Generated first&rdquo; (returns related)</p>
-			</td>
-			<td style="vertical-align:top">
-			<p>cols_returns_new = [&#39;rp_up&#39;,&#39;rp_down&#39;, &#39;rp_asym&#39;,&#39;empty_values_returns&#39;]</p>
-			</td>
-		</tr>
-		<tr>
-			<td style="vertical-align:top">
-			<p>&ldquo;Generated second&rdquo; (day and product related)</p>
-			</td>
-			<td style="vertical-align:top">
-			<p>cols_v2=[&quot;ID&quot;, &quot;n_produits_unique&quot;, &quot;n_dates_unique&quot;,</p>
-
-			<p>&quot;min_market&quot;, &quot;max_market&quot;, &quot;market_volatility&quot;, &quot;vol_empty_day&quot;,&quot;ret_empty_day&quot;, &quot;avg_spread_day&quot;, &quot;min_spread_day&quot;,&quot;max_spread_day&quot;,&quot;avg_first_three_av_day&quot;,</p>
-
-			<p>&quot;avg_last_six_av_day&quot;,&quot;avg_vol_up_max_day&quot;,&quot;avg_v_down_max_day&quot;, &quot;avg_ru_up_day&quot;, &quot;avg_rp_down_day&quot;, &quot;min_alltime&quot;,&quot;max_alltime&quot;, &quot;avg_all_time&quot;, &quot;vol_empty_total&quot;,</p>
-
-			<p>&quot;ret_empty_total&quot;, &quot;avg_spread_alltime&quot;, &quot;min_spread_alltime&quot;,&quot;max_spread_alltime&quot;,</p>
-
-			<p>&nbsp;&quot;avg_first_three_av_alltime&quot;, &quot;avg_last_six_av_alltime&quot;,</p>
-
-			<p>&nbsp;&quot;avg_vol_up_max_alltime&quot;, &quot;avg_v_down_max_alltime&quot;,</p>
-
-			<p>&nbsp;&quot;avg_ru_up_alltime&quot;, &quot;avg_rp_down_alltime&quot;]</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-
 
 
 <p><strong>Features importance and model results progress</strong></p>

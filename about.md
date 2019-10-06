@@ -4,8 +4,8 @@ layout: page
 ---
 
 <font size = "2">
-Data analyst with a keen interest in machine learning and data science domains. <br />
-I currently work in a consulting company providing services for banks in Paris, France.</font>
+Senior Consultant with a keen interest in machine learning and data science domains. <br />
+I currently work in a consulting firm in Madrid, Spain.</font>
 
 ### Courses and training 
 <font size = "2">
@@ -15,5 +15,5 @@ I currently work in a consulting company providing services for banks in Paris, 
 
 ### Contact me
 <font size = "2">
-Via Linkedin or email:</font> [kseniya.shitova@edu.escpeurope.eu](mailto:kseniya.shitova@edu.escpeurope.eu)
+Via email:</font> [kseniya.shitova@edu.escpeurope.eu](mailto:kseniya.shitova@edu.escpeurope.eu)
 
